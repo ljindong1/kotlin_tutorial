@@ -39,8 +39,10 @@ java {
 }
 
 application {
-    // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass.set(
+        project.findProperty("mainClass") as? String
+            ?: error("Please provide -PmainClass=...")
+    )
 }
 
 tasks.named<Test>("test") {
