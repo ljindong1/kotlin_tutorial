@@ -1,4 +1,4 @@
-package org.example
+package org.example.step19
 
 // 함수 타입에 별칭 부여
 typealias ClickHandler = (String) -> Unit

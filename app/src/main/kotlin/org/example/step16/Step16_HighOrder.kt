@@ -1,4 +1,4 @@
-package org.example
+package org.example.step16
 
 // 함수를 인자로 받는 고차 함수
 fun operate(a: Int, b: Int, op: (Int, Int) -> Int): Int {

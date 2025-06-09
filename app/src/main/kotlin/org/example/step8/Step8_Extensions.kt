@@ -1,4 +1,4 @@
-package org.example
+package org.example.step8
 
 // 확장 함수: String에 기능 추가
 fun String.firstChar(): Char = this[0]

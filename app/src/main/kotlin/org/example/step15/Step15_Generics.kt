@@ -1,4 +1,4 @@
-package org.example
+package org.example.step15
 
 // 제네릭 함수
 fun <T> printList(items: List<T>) {

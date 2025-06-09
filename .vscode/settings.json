@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "kotlin": "sh -c 'filename=$(basename $fileNameWithoutExt); ./gradlew run -PmainClass=org.example.${filename}Kt'"
+        "kotlin": "sh -c 'main=${file#*src/main/kotlin/}; main=${main%.kt}; main=${main//\//.}; ./gradlew run -PmainClass=${main}Kt'"
     },
     "code-runner.runInTerminal": true
 }

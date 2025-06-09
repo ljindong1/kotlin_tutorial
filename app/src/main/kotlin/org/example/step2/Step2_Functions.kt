@@ -1,4 +1,4 @@
-package org.example
+package org.example.step2
 
 // 기본 인자와 네임드 파라미터
 fun greet(name: String = "Guest") {

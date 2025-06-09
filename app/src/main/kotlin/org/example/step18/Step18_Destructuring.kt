@@ -1,4 +1,4 @@
-package org.example
+package org.example.step18
 
 data class Person(val name: String, val age: Int)
 

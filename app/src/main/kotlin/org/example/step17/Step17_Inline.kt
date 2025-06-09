@@ -1,4 +1,4 @@
-package org.example
+package org.example.step17
 
 // inline 함수: 함수 본문이 호출 지점에 인라인됨
 inline fun measureTime(block: () -> Unit) {

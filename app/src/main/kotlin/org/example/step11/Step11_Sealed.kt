@@ -1,4 +1,4 @@
-package org.example
+package org.example.step11
 
 // 봉인 클래스
 sealed class Result
