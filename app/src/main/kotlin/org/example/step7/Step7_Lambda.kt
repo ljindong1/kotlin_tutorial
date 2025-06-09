@@ -1,4 +1,4 @@
-package org.example
+package org.example.step7
 
 fun main() {
     // 람다식 정의

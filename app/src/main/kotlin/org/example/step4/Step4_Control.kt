@@ -1,4 +1,4 @@
-package org.example
+package org.example.step4
 
 fun main() {
     val score = 85

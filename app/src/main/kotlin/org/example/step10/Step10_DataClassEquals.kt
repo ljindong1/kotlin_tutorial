@@ -1,4 +1,4 @@
-package org.example
+package org.example.step10
 
 data class User(val id: Int, val name: String)
 

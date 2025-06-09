@@ -1,4 +1,4 @@
-package org.example
+package org.example.step12
 
 enum class Direction {
     NORTH, SOUTH, EAST, WEST

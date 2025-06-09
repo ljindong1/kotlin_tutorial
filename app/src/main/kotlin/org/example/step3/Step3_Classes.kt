@@ -1,4 +1,4 @@
-package org.example
+package org.example.step3
 
 // 일반 클래스
 class Person(val name: String, var age: Int) {

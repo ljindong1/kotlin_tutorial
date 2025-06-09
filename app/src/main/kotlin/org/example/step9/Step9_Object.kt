@@ -1,4 +1,4 @@
-package org.example
+package org.example.step9
 
 // 객체 선언 (Singleton)
 object Logger {

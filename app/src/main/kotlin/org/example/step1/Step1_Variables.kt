@@ -1,4 +1,4 @@
-package org.example
+package org.example.step1
 
 fun main() {
     val name = "Kotlin" // 변경 불가

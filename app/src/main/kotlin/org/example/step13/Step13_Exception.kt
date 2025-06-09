@@ -1,4 +1,4 @@
-package org.example
+package org.example.step13
 
 fun riskyDivide(a: Int, b: Int): Int {
     if (b == 0) throw IllegalArgumentException("Cannot divide by zero")

@@ -1,4 +1,4 @@
-package org.example
+package org.example.step6
 
 fun main() {
     // Nullable 선언

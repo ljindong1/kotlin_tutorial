@@ -1,4 +1,4 @@
-package org.example
+package org.example.step20
 
 // 사용자 정의 애노테이션
 @Target(AnnotationTarget.FUNCTION)

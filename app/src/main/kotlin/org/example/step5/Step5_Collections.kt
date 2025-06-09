@@ -1,4 +1,4 @@
-package org.example
+package org.example.step5
 
 fun main() {
     // 리스트 (순서 있음, 중복 허용)
