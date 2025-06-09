@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Gradle Kotlin Main (자동)",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "file_path='${file}'; main_path=${file_path#*src/main/kotlin/}; main_name=${main_path%.kt}; package_class_name=$(echo \"$main_name\" | tr / .); ./gradlew run -PmainClass=${package_class_name}Kt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
