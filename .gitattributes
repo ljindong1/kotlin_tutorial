@@ -1,12 +1,36 @@
 #
 # https://help.github.com/articles/dealing-with-line-endings/
 #
-# Linux start script should use lf
+
+# 모든 텍스트 파일 기본 자동 줄바꿈(LF/CRLF 자동 변환)
+*               text=auto
+
+# Linux start script(gradlew)는 LF로 고정
 /gradlew        text eol=lf
 
-# These are Windows script files and should use crlf
-*.bat           text eol=crlf
+# 셸 스크립트(.sh)도 LF로 고정
+*.sh            text eol=lf
 
-# Binary files should be left untouched
+# 마크다운(.md), YAML(.yml, .yaml) 등도 LF로 고정 (리눅스 호환)
+*.md            text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+
+# Windows 배치 파일은 CRLF
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+
+# Python, Java 등은 기본 정책에 따름 (별도 명시 불필요)
+
+# Binary 파일(실행파일, 이미지 등)은 무조건 binary로
 *.jar           binary
+*.exe           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.zip           binary
+*.tar           binary
+*.gz            binary
+*.pdf           binary
 
